@@ -1,0 +1,163 @@
+@import url("https://www.birmingham.gov.uk/site/dist/orbit.css");
+
+svg {
+	pointer-events: initial;
+}
+.header {
+	display: none;
+}
+.post-date {
+	display: none;
+}
+.postmetadata {
+	display: none;
+}
+#header-bar {
+	width: 100%;
+	margin: 0;
+	background-color: #8b2388;
+    color: #fff;
+}
+#newHeader {
+width: 960px;
+margin: 0 auto;
+}
+#logo {
+float: left;
+}
+.site-name {
+float: right;
+margin-top: 10px;
+}
+.site-name a, .site-name a:visited {
+color: #fff;
+}
+
+#main {
+width: 960px;
+margin: 0 auto;
+}
+
+.post-date {
+margin-top: 0px;
+font-size: 0.8em;
+font-weight: 100;
+font-style: italic;
+}
+
+#leftcolumn {
+float: left;
+width: 73%;
+}
+.post {
+border-bottom: 1px dotted #333;
+}
+.postmetadata {
+font-style: italic;
+}
+.sociable ul {
+	margin: 0;
+    padding: 0
+}
+.sociable ul  li {
+	display: inline-block;
+    list-style-type: none;
+}
+input[type="text"] {
+    border-radius: 10px;
+    border: 1px solid #777;
+    height: 40px;
+    padding: 5px;
+}
+input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #b147af;
+    border-radius: 10px;
+	border: 0;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-family: "Montserrat",sans-serif;
+    margin: 0;
+    padding: .75rem 1rem;
+    text-align: left;
+    text-decoration: none;
+	transition: .3s;
+    vertical-align: middle;
+}
+#container {
+	float:left;
+	width: 25%;
+background-color: #f0eeee;
+padding: 5px;
+margin-left: 15px;
+font-size: 0.8em;
+}
+#container h3 {
+font-size: 1em;
+background-color: #585858;
+color: #fff;
+padding: 5px;
+}
+#container  ul {
+	margin: 0;
+    padding: 0
+}
+#container ul  li {
+/*	display: inline-block; */
+    list-style-type: none;
+	margin-bottom: 5px;
+}
+#container ul a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+#container li:hover > a {
+	background: #dadbeb;
+	color:#000;
+}
+
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+
+.clearfix {
+clear: both;
+}
+
+.site-footer {
+}
+
+/************************************************************************************
+smaller than 1000
+*************************************************************************************/
+@media screen and (max-width: 1000px) {
+
+	body {
+		font-size: 3em;
+		line-height: 1.5em;
+		color: #555;
+	}
+
+	#newHeader {
+		width: 100%;
+		padding: 2%;
+	}	
+	#main {
+		width: 95%;
+	}
+	h2  {
+		font-size: 1.5em;
+	}
+	#leftcolumn {
+		width: 100%;
+	}
+	#container {
+		width: 100%;
+		margin-left: 0px;
+		padding: 0px;
+	}
+}
